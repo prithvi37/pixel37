@@ -1,0 +1,115 @@
+body{
+      
+      background-size: auto;
+      background-color: black;
+      
+    }
+      .container{
+    
+      display:grid;
+      font-family: "Press start 2p";
+      color :#ffffff;
+      font-size: 20px;
+      height:14vh;
+      text-align:center;
+      grid-template-columns:1fr 1fr 1fr;
+    }
+    .container2{
+      display:grid;
+      height:40vh;
+      grid-template-columns:1fr 1fr 1fr;
+      text-align:center;
+      
+    }
+        
+    
+    .content2{
+        width:500px;
+        color:#e5c1c0;
+        font-family:'Press start 2p';
+        font-size:70px;
+        display:flex;
+        border:5px dashed black;
+        background:#b84004;
+        text-align:center;
+        border-radius:40px;
+        align-items:center;
+        box-shadow: 0 0 10px rgba(200, 0, 0, 1000);
+      }
+      .content1 h2,li{
+        display: flex;
+        flex-direction: column;
+        margin-left:110px;
+        text-align: justify;
+        padding:3px;
+        font-size:15px;
+        font-family:'Press start 2p';
+      }
+      .content3 h2,li{
+        display: flex;
+        flex-direction: column;
+        margin-left:110px;
+        text-align: justify;
+        padding:3px;
+        font-size:15px;
+        font-family:'Press start 2p';
+      }
+      
+      
+      .startgame{
+        display:grid;
+        padding:23px;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size:40px;
+        height:170px;
+        justify-content:center;
+        align-items: center;
+        place-items: center;
+      }
+      .button{
+        display:flex;
+        font-size:20px;
+        height:auto;
+        font-family:'press start 2p';
+        border:5px solid white;
+        border-radius:15px;
+        width:160px;
+        justify-content:space-between;
+        color:white;
+        text-align: center;
+        padding:5px;
+      }
+      .button:hover {
+        background-color: #0056b3;
+      }
+
+      img{
+        height:100px;
+    }
+    .container3{
+        border:2px solid black;
+      display:grid;
+      height:12vh;
+      bottom:0px;
+      grid-template-columns:repeat(11,auto) ;
+    }
+    .f1, .f2, .f3,.f4,.f5,.f6,.f7,.f8,.f9,.f10,.f11 {
+        display:flex;
+        column-gap: 0px;
+        background-size:contain;
+        overflow:hidden;
+        border: 1px solid black; /* optional: this will hide the border around each grid item */
+      }   
+      img{
+        flex-grow:2;
+      }
+    
+
+/*----------icons---------------*/
+main img{
+    height: 35px;
+    margin-right: 10px;
+    margin-top:5px;
+}
+
+
